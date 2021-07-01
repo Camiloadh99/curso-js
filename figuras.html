@@ -8,7 +8,23 @@
         
     </head>
     <body>
-        <h1>Figuras geometricas</h1>
+        <header>
+            <h1>Figuras geometricas</h1>
+        </header>
+        
+        <section>
+            <h2>Calcula el area y perimetro de un cuadrado</h2>
+            <form>
+
+                <label for="ingresoCuadrado" >Escribe el valor del lado del cuadrado: </label>
+                <input type="number" id="ingresoCuadrado">
+
+                <button type="button" onclick="calcularPerimetroCuadrado()">Calcular perimetro</button>
+                
+                <button type="button" onclick="calcularAreaCuadrado()">Calcular area</button>
+
+            </form>
+        </section>
         <script src="./figuras.js"></script>
     </body>
 </html>
