@@ -47,6 +47,9 @@ function calcularPerimetroCuadrado(){
     const perimetro = perimetroCuadrado(value);
 
     alert("El perimetro del cuadrado es: " + perimetro + "cm");
+
+    document.getElementById("ParrafoPerimetro").innerText = "El perimetro es " + perimetro + "cm"; //Para cambiar el parrafo
+    
 }
 
 function calcularAreaCuadrado(){
